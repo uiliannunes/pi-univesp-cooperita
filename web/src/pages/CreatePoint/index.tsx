@@ -51,7 +51,7 @@ const CreatePoint = () => {
     navigator.geolocation.getCurrentPosition(position => {
       const { latitude, longitude } = position.coords;
 
-      setInitialPosition([latitude, longitude]);
+      setInitialPosition([-23.5899356, -48.0519473]);
     });
   }, []);
 
@@ -173,7 +173,7 @@ const CreatePoint = () => {
           </header>
 
           <div className="field">
-            <label htmlFor="name">Nome da entidade</label>
+            <label htmlFor="name">Nome da entidade/estabelecimento</label>
             <input 
               type="text"
               name="name"
@@ -225,7 +225,7 @@ const CreatePoint = () => {
               <select 
                 name="SP" 
                 id="SP" 
-                value={selectedUf} 
+                value={"SP"} 
                 onChange={handleSelectUf}
               >
                 <option value="0">Selecione uma UF</option>
@@ -237,12 +237,12 @@ const CreatePoint = () => {
             <div className="field">
               <label htmlFor="city">Cidade</label>
               <select 
-                name="Itapetininga" 
-                id="Itapetininga"
+                name="city" 
+                id="city"
                 value={selectedCity}
                 onChange={handleSelectCity}
               >
-                <option value="0">Selecione uma cidade</option>
+                <option value="Itapetininga">Itapetininga</option>
                 {cities.map(city => (
                   <option key={city} value={city}>{city}</option>
                 ))}
