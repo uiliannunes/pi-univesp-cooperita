@@ -11,13 +11,15 @@ const Home = () => {
     <div id="page-home">
       <div className="content">
         <header>
-          <img src={logo} alt="Ecoleta" />
+          <img src={logo} alt="COOPERITA - Cooperativa de Reciclagem de Itapetininga/SP" />
+          <div id="menu">
           <ul>
-            <li>A Cooperita</li>
-            <li>Materiais Coletados</li>
-            <li>Pontos de Coletas</li>
-            <li>Contato</li>
+            <li><Link to="#">A Cooperita</Link></li>
+            <li><Link to="#">Materiais Coletados</Link></li>
+            <li><Link to="#">Pontos de Coletas</Link></li>
+            <li><Link to="#">Contato</Link></li>
           </ul>
+          </div>
         </header>
 
         <main>

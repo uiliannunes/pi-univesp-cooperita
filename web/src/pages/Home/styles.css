@@ -105,3 +105,20 @@
     font-size: 24px;
   }
 }
+
+#menu{
+  width: 900px;
+  float: right;
+  margin-left: 500px;
+  margin-top:-30px;
+  padding: 0;
+}
+
+#menu ul{
+  
+}
+
+#menu ul li{
+  display: inline;
+  padding: 15px;
+}
