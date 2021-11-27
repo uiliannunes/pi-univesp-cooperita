@@ -8,7 +8,7 @@ import logo from '../../assets/logo.svg';
 
 const Home = () => {
   return (
-    <div id="page-home">
+    <div id="page-home-principal">
       <div className="content">
         <header>
         <Link to="/"><img src={logo} alt="COOPERITA - Cooperativa de Reciclagem de Itapetininga/SP" /></Link>

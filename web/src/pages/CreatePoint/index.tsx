@@ -8,7 +8,7 @@ import api from '../../services/api';
 
 import Dropzone from '../../components/Dropzone';
 
-import './styles.css';
+import './styles-createpoints.css';
 
 import logo from '../../assets/logo.svg';
 
@@ -228,7 +228,7 @@ const CreatePoint = () => {
                 value={"SP"} 
                 onChange={handleSelectUf}
               >
-                <option value="0">Selecione uma UF</option>
+                <option value="SP">Selecione uma UF</option>
                 {ufs.map(uf => (
                   <option key={uf} value={uf}>{uf}</option>
                 ))}

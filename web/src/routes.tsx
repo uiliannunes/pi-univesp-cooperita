@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import CreatePoint from './pages/CreatePoint';
 import Pontos from './pages/Pontos';
 import Cooperita from './pages/Cooperita';
+import Materiais from './pages/Materiais';
+import Contato from './pages/Contato';
 
 const Routes = () => {
   return (
@@ -13,6 +15,8 @@ const Routes = () => {
       <Route component={CreatePoint} path="/create-point" />
       <Route component={Pontos} path="/Pontos" />
       <Route component={Cooperita} path="/Cooperita" />
+      <Route component={Materiais} path="/Materiais" />
+      <Route component={Contato} path="/Contato" />
     </BrowserRouter>
   );
 }

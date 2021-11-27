@@ -1,10 +1,8 @@
-#page-home-principal {
+#page-home {
   height: 100vh;
-
-  background: url('../../assets/home-background.svg') no-repeat 700px bottom;
 }
 
-#page-home-principal .content {
+#page-home .content {
   width: 100%;
   height: 100%;
   max-width: 1100px;
@@ -16,31 +14,31 @@
   align-items: flex-start;
 }
 
-#page-home-principal .content header {
+#page-home .content header {
   margin: 48px 0 0;
 }
 
-#page-home-principal .content main {
+#page-home .content main {
   flex: 1;
-  max-width: 560px;
+  max-width: 1050px;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-#page-home-principal .content main h1 {
+#page-home .content main h1 {
   font-size: 54px;
   color: var(--title-color);
 }
 
-#page-home-principal .content main p {
+#page-home .content main p {
   font-size: 24px;
   margin-top: 24px;
   line-height: 38px;
 }
 
-#page-home-principal .content main a {
+#page-home .content main a {
   width: 100%;
   max-width: 360px;
   height: 72px;
@@ -55,7 +53,7 @@
   margin-top: 40px;
 }
 
-#page-home-principal .content main a span {
+#page-home .content main a span {
   display: block;
   background: rgba(0, 0, 0, 0.08);
   width: 72px;
@@ -67,41 +65,41 @@
   transition: background-color 0.2s;
 }
 
-#page-home-principal .content main a span svg {
+#page-home .content main a span svg {
   color: #FFF;
   width: 20px;
   height: 20px;
 }
 
-#page-home-principal .content main a strong {
+#page-home .content main a strong {
   flex: 1;
   text-align: center;
   color: #FFF;
 }
 
-#page-home-principal .content main a:hover {
+#page-home .content main a:hover {
   background: #2FB86E;
 }
 
 @media(max-width: 900px) {
-  #page-home-principal .content {
+  #page-home .content {
     align-items: center;
     text-align: center;
   }
 
-  #page-home-principal .content header {
+  #page-home .content header {
     margin: 48px auto 0;
   }
 
-  #page-home-principal .content main {
+  #page-home .content main {
     align-items: center;
   }
 
-  #page-home-principal .content main h1 {
+  #page-home .content main h1 {
     font-size: 42px;
   }
 
-  #page-home-principal .content main p {
+  #page-home .content main p {
     font-size: 24px;
   }
 }
@@ -129,7 +127,7 @@
   padding: 15px;
 }
 
-#page-home-principal .content footer p {
+#page-home .content footer p {
   flex: 1;
 
   display: flex;
@@ -138,3 +136,12 @@
   padding:1rem;
   margin-left: 100px;
 }
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  background-color:#F0F0F5;
+  }
