@@ -20,7 +20,7 @@
 
 #page-home .content main {
   flex: 1;
-  max-width: 560px;
+  max-width: 1050px;
 
   display: flex;
   flex-direction: column;
@@ -119,6 +119,12 @@
 #menu ul li{
   display: inline;
   padding: 15px;
+  color: blue;
+}
+
+#menu ul li{
+  display: inline;
+  padding: 15px;
 }
 
 #page-home .content footer p {
@@ -133,8 +139,9 @@
 
 .parent {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 20px;
   grid-row-gap: 10px;
+  background-color:#F0F0F5;
   }
