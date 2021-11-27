@@ -6,12 +6,12 @@ import './styles.css';
 
 import logo from '../../assets/logo.svg';
 
-const Home = () => {
+const Pontos = () => {
   return (
     <div id="page-home">
       <div className="content">
         <header>
-        <Link to="/"><img src={logo} alt="COOPERITA - Cooperativa de Reciclagem de Itapetininga/SP" /></Link>
+          <Link to="/"><img src={logo} alt="COOPERITA - Cooperativa de Reciclagem de Itapetininga/SP" /></Link>
           <div id="menu">
           <ul>
             <li className="mouse"><Link to="/Cooperita">A Cooperita</Link></li>
@@ -23,15 +23,8 @@ const Home = () => {
         </header>
 
         <main>
-          <h1>Somos a Cooperativa de Reciclagem em Itapetininga-SP.</h1>
-          <p>Ajudamos nossa comunidade a propagar a sustentabilidade e preservar o meio ambiente.</p>
+          
 
-          <Link to="/Pontos">
-            <span>
-              <FiLogIn />
-            </span>
-            <strong>Conheça Nossos Pontos de Coleta!</strong>
-          </Link>
         </main>
 
       <footer>
@@ -44,4 +37,4 @@ const Home = () => {
   )
 }
 
-export default Home;
+export default Pontos;

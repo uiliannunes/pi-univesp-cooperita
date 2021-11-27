@@ -12,8 +12,6 @@ import './styles.css';
 
 import logo from '../../assets/logo.svg';
 
-// array ou objeto: manualmente informar o tipo da variavel
-
 interface Item {
   id: number;
   title: string;
