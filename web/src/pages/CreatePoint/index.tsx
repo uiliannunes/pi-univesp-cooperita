@@ -223,8 +223,8 @@ const CreatePoint = () => {
             <div className="field">
               <label htmlFor="uf">Estado (UF)</label>
               <select 
-                name="uf" 
-                id="uf" 
+                name="SP" 
+                id="SP" 
                 value={selectedUf} 
                 onChange={handleSelectUf}
               >
@@ -237,8 +237,8 @@ const CreatePoint = () => {
             <div className="field">
               <label htmlFor="city">Cidade</label>
               <select 
-                name="city" 
-                id="city"
+                name="Itapetininga" 
+                id="Itapetininga"
                 value={selectedCity}
                 onChange={handleSelectCity}
               >

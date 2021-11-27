@@ -11,7 +11,7 @@ const Pontos = () => {
     <div id="page-home">
       <div className="content">
         <header>
-          <Link to="/"><img src={logo} alt="COOPERITA - Cooperativa de Reciclagem de Itapetininga/SP" /></Link>
+        <Link to="/"><img src={logo} alt="COOPERITA - Cooperativa de Reciclagem de Itapetininga/SP" /></Link>
           <div id="menu">
           <ul>
             <li className="mouse"><Link to="/Cooperita">A Cooperita</Link></li>
@@ -24,6 +24,15 @@ const Pontos = () => {
 
         <main>
           
+        <div className="parent">
+          <div>aaaaaaaa</div>
+          <div>ssssssss</div>
+          <div>ddddddd</div>
+          <div>fffffff</div>
+          <div>gggggg</div>
+          <div>hhhhhh</div>
+          <div>iiiiii</div>
+        </div>
 
         </main>
 
