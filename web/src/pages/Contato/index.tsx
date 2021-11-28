@@ -5,9 +5,10 @@ import { Link } from 'react-router-dom';
 import './styles.css';
 
 import logo from '../../assets/logo.svg';
-import quemsomos from '../../assets/quem-somos.png';
+import google from '../../assets/google.png';
 
 const Contato = () => {
+
   return (
     <div id="page-home">
       <div className="content">
@@ -25,40 +26,26 @@ const Contato = () => {
 
         <main>
           <div className="parent">
-            <div><h2>- Materiais Coletados -</h2>
+            <div><h2>- Entre em contato conosco: -</h2>
                 
-                <p>A Cooperita atua como Cooperativa de Reciclagem em Itapetininga por aproximadamente 20 anos, onde muitas familias já se beneficiaram levando 
-                  renda para suas casas. Atualmente há no quadro 18 cooperados que realizam todos nossos processos.</p>
+                <p>Realizamos coletas agendadas (grandes quantidades), se necessário entre em contato  conosco para realizar seu agendamento!</p>
 
-                  <p>* Computadores
-                    * Monitores
-                    * Teclados
-                    * Impressoras
-                    * Celulares
-                    * Aparelhos de TV
-                    * Aparelhos de DVD
-                    * Vídeo cassetes
-                    * Outros eletroeletrônicos</p>
+                  <p>Presidente da Cooperativa:<br/> <b>Keytilin Karina Feliciano Domingues</b></p>
+
+                  <p>Email: keitilinkarina@gmail.com</p>
+
+                  <p>Fone: (15) 3373-5309</p>
+
+                  <Link to="whatsapp://send?phone=+5515945632107&text=Tenho interesse sobre coleta de resíduos">
+                  <span>
+                    <FiLogIn />
+                  </span>
+                  <strong>Entre em contato no whatsapp!</strong>
+                </Link>
+
             </div>
               <div>
-                  <p>- Papelão                                         6 meses
-
-- Papel branco                                6 meses
-
-- Embalagens Longa Vida            100 anos
-
-- Plástico                                          500 anos
-
-- Metais                                            500 anos
-
-- Pilhas                                              500 anos
-
-- Vidro                                              tempo indeterminado
-
-- Tonners                                         1000 anos
-
-- Eletroeletrônicos                        tempo indeterminado (metais pesados)</p>
-                  
+              <img src={google} alt="#" />
               </div>
           </div>
 
